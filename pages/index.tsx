@@ -1,12 +1,15 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
 import React from 'react'
-// import styles from '../styles/Home.module.css'
-import Button from '@mui/material/Button'
 import Navbar from './components/Navbar'
+import About from './components/About'
+
+import Logo from "../public/assets/1.png"
+import LogoLarge from '../public/assets/LogoLarge.svg'
 
 export default function Home() {
   return (
-    <Navbar />
-  )
+    <div>
+      <Navbar img={Logo} logo_large={LogoLarge} />
+      <About />
+    </div>
+  );
 }

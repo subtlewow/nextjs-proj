@@ -11,6 +11,9 @@ module.exports = {
         Archivo: ['Archivo', 'sans-serif'],
         OxygenMono: ['Oxygen Mono', 'sans-serif']
       },
+      colors: {
+        midnight: "#0E1219",
+      },
     },
   },
   plugins: [],
