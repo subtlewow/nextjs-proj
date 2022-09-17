@@ -1,10 +1,10 @@
 import * as React from 'react';
+import Image from 'next/image';
 
-
-const About = () => {
+const About = (prop) => {
     return (
-        <div className="bg-gradient-to-b from-midnight ">
-
+        <div className="bg-red-400">
+            <Image src={prop.Mesh}></Image>
         </div>
     );
 }
